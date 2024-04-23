@@ -1,11 +1,11 @@
 
-
 export default function Home() {
   return (
    <div>
-    <h1 className="text-center text-3xl font-semibold">
-      Hello Alphazero</h1>
-      
+       <h1 className=" my-3 text-center text-3xl 
+       font-semibold">
+      Welcome to our website!
+    </h1>
    </div>
   );
 }
