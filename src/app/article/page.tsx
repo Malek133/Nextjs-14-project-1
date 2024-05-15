@@ -1,7 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
 
-const ArticlesPage = () => {
+const ArticlesPage = async () => {
+
+ const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+ const  articles = await res.json(); 
+ console.log(articles)
   return (
     <div className='flex flex-col items-center justify-center h-screen'>
       ArticlesPage
